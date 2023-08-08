@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: red;
+}
+
+/*!--------HEADER-------*/
+.lg {
+    height: 150px;
+    width: 150px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.fotoz div img {
+    width: 560px;
+
+}
+
+/*!------------MAIN-------*/
+.contenedor {
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-inline: 4rem;
+}
+
+.cajita {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.cb {
+    color: aqua;
+    font-size: 50px;
+}
+
+.video h1 {
+    height: 20%;
+}
+
+.text1 {
+    color: white;
+    margin: 4rem;
+}
+
+.imgc {
+    width: 300px;
+    height: 15rem;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+
+}
+
+.infogame {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-inline: 3rem;
+    gap: 3rem;
+}
+
+.infogame p {
+    color: rgb(255, 0, 0);
+    text-align: left;
+}
+
+.bloque img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid red;
+}
+
+.bloque {
+    border: solid red;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    border-radius: 4rem;
+}
+
+.coleccionables>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boton:hover {
+    background-color: #b22222;
+    color: black
+}
+
+.boton {
+    padding-inline: 1rem;
+    border-radius: 0.5rem;
+}
+
+.boton:active {
+    background-color: #b22222;
+    color: #f1f1f1;
+}
+
+.coleccionables div div {
+    border: solid 2px rgb(160, 146, 146);
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    margin: 50px;
+    border-radius: 2rem;
+}
+
+.coleccionables a {
+    border: solid 1px rgb(100, 91, 91);
+    font-size: 40px;
+}
+
+.txt {
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+.bloque2 {
+    border: solid rgb(0, 4, 255);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+    border-radius: 4rem;
+}
+
+.bloque2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid rgb(17, 0, 255);
+}
+
+/*!------------FOOTER-------*/
+.pie {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.buttons {
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pie p {
+    color: white;
+}
+
+.buttons a {
+    font-size: 28px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #b22222;
+    color: #f1f1f1;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+    margin: 30px;
+}
+
+.buttons a:hover {
+    transform: scale(1.2);
+}
+
+.pie p {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+
+/*!------------MEDIAQUERY-------*/
+@media screen and (max-width:768px) {
+    .cajita {
+        flex-direction: column-reverse;
+    }
+
+    .contenedor iframe {
+        width: 100%;
+    }
+
+    .fotoz div img {
+        width: 300px;
+
+    }
+
+    .imgc {
+        width: 200px;
+        height: 14rem;
+    }
+
+    .infogame {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloque2 {
+        flex-direction: column-reverse;
+    }
+}

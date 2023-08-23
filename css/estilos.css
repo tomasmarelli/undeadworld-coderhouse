@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  background-color: black;
+}
+
+header nav {
+  background: linear-gradient(rgba(255, 0, 0, 0.315), black);
+}
+header nav div a img {
+  height: 150px;
+  width: 150px;
+}
+
+header .container-fluid {
+  background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor .cajita {
+    flex-direction: column-reverse;
+  }
+  .contenedor iframe {
+    width: 100%;
+  }
+  .fotoz div img {
+    width: 300px;
+  }
+  .imgc {
+    width: 200px;
+    height: 14rem;
+  }
+  .infogame {
+    display: flex;
+    flex-direction: column;
+  }
+  .bloque2 {
+    flex-direction: column-reverse;
+  }
+}
+.contenedor {
+  display: flex;
+  background: linear-gradient(rgba(255, 0, 0, 0.363), black);
+  flex-direction: column;
+  gap: 2rem;
+  padding-inline: 4rem;
+}
+.contenedor .cajita {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.contenedor .cajita p {
+  color: red;
+}
+
+.fotoz div img {
+  width: 560px;
+}
+
+.coleccionables {
+  background: linear-gradient(rgba(255, 0, 0, 0.363), black);
+}
+.coleccionables div {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.coleccionables div div {
+  border: solid 2px rgb(160, 146, 146);
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  margin: 50px;
+  border-radius: 2rem;
+}
+.coleccionables div a {
+  border: solid 1px rgb(100, 91, 91);
+  font-size: 40px;
+}
+
+.imgc {
+  width: 300px;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.txt {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.boton {
+  padding-inline: 1rem;
+  border-radius: 0.5rem;
+}
+.boton:hover {
+  background-color: #b22222;
+  color: black;
+}
+.boton:active {
+  background-color: #b22222;
+  color: #f1f1f1;
+}
+
+.infogame {
+  background: linear-gradient(rgba(255, 0, 0, 0.363), black);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-inline: 3rem;
+  gap: 3rem;
+}
+.infogame p {
+  color: rgb(255, 0, 0);
+  text-align: left;
+}
+
+.bloque {
+  border: solid red;
+  margin: 5px;
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: 4rem;
+  display: flex;
+  justify-content: column;
+  align-items: center;
+}
+.bloque img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid red;
+}
+
+.bloque2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid rgb(0, 4, 255);
+  margin: 20px;
+  padding: 1rem;
+  gap: 2rem;
+  border-radius: 4rem;
+}
+.bloque2 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid rgb(17, 0, 255);
+}
+.bloque2 .texto2 {
+  color: #b22222;
+}
+
+main .wp {
+  background: linear-gradient(rgba(255, 0, 0, 0.363), black);
+}
+
+.pie {
+  background-color: rgb(2, 2, 2);
+  width: 100%;
+  height: 100px;
+}
+.pie .buttons {
+  position: relative;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pie .buttons a {
+  font-size: 28px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #b22222;
+  color: #f1f1f1;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  margin: 30px;
+}
+.pie .buttons a:hover {
+  transform: scale(1.2);
+}
+.pie p {
+  background-color: rgb(2, 2, 2);
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  color: white;
+}/*# sourceMappingURL=estilos.css.map */

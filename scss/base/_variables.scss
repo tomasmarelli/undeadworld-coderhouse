@@ -1,0 +1,11 @@
+$color_primario: black;
+$color_secundario: wthite;
+$body_color: rgb(0, 0, 0);
+$footer_color: rgb(2, 2, 2);
+
+
+@mixin flex($flex,$justify,$align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+};

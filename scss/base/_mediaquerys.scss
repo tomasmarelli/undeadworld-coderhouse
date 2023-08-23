@@ -1,0 +1,36 @@
+@media screen and (max-width:768px) {
+    .contenedor {
+        .cajita {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .contenedor {
+        iframe {
+            width: 100%;
+        }
+    }
+
+    .fotoz {
+        div {
+            img {
+                width: 300px;
+
+            }
+        }
+    }
+
+    .imgc {
+        width: 200px;
+        height: 14rem;
+    }
+
+    .infogame {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloque2 {
+        flex-direction: column-reverse;
+    }
+}

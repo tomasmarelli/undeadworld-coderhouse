@@ -56,6 +56,7 @@
 .txt {
     font-size: 1rem;
     margin: 0.5rem;
+    color: red;
 }
 
 .boton {
@@ -92,6 +93,20 @@
     border-radius: 4rem;
     @include flex (flex,column,center);
     img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 4px solid red;
+    }
+}
+.bloquec{
+    border: solid red;
+    margin: 5px;
+    padding: 2rem;
+    gap: 2rem;
+    border-radius: 4rem;
+    @include flex (flex,column,center);
+    .imgca{
         width: 200px;
         height: 200px;
         border-radius: 50%;

@@ -24,11 +24,23 @@
         width: 200px;
         height: 14rem;
     }
-    
-    .infogame {
+    main {
+        .infogame {  
         display: flex;
         flex-direction: column;
+        }
+        .bloque{
+            flex-direction: column;
+        }
     }
+    .bloquec{
+        flex-direction: column;
+        p{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
 
     .bloque2 {
         flex-direction: column-reverse;

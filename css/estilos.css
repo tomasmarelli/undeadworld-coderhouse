@@ -38,7 +38,17 @@ header .container-fluid {
     width: 200px;
     height: 14rem;
   }
-  .infogame {
+  main .infogame {
+    display: flex;
+    flex-direction: column;
+  }
+  main .bloque {
+    flex-direction: column;
+  }
+  .bloquec {
+    flex-direction: column;
+  }
+  .bloquec p {
     display: flex;
     flex-direction: column;
   }

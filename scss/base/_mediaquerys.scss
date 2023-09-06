@@ -3,39 +3,49 @@
         .cajita {
             flex-direction: column-reverse;
         }
+
     }
 
     .contenedor {
         iframe {
             width: 100%;
         }
+
+
+
     }
 
-    .fotoz {
-        div {
-            img {
-                width: 300px;
-
+    .contenedor {
+        .fotoz {
+            div {
+                img {
+                    width: 300px;
+                }
             }
         }
     }
+
 
     .imgc {
         width: 200px;
         height: 14rem;
     }
+
     main {
-        .infogame {  
-        display: flex;
-        flex-direction: column;
+        .infogame {
+            display: flex;
+            flex-direction: column;
         }
-        .bloque{
+
+        .bloque {
             flex-direction: column;
         }
     }
-    .bloquec{
+
+    .bloquec {
         flex-direction: column;
-        p{
+
+        p {
             display: flex;
             flex-direction: column;
         }

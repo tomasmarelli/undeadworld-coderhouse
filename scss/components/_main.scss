@@ -10,10 +10,15 @@
         justify-content: space-around;
         align-items: center;
         p{
-            color:red;
+            color: green;
         }
     }
 
+}
+
+.fue{
+    font-family: 'Chiller', cursive;
+    
 }
 
 .fotoz {
@@ -23,6 +28,7 @@
         }
     }
 }
+
 
 .coleccionables {
     background: linear-gradient(rgba(255, 0, 0, 0.363),black);
@@ -54,6 +60,7 @@
 }
 
 .txt {
+    font-family: monospace;
     font-size: 1rem;
     margin: 0.5rem;
     color: red;
@@ -130,6 +137,7 @@
     }
     .texto2{
         color: #b22222;
+        font-family: fantasy;
     }
 
 }
@@ -137,4 +145,38 @@ main{
     .wp{
         background: linear-gradient(rgba(255, 0, 0, 0.363),black);
     }
+}
+.cont{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 50vh;
+}
+.zombie{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    max-width: 80%; 
+
+}
+.img4{
+    max-width: 50%; 
+    height: auto;
+
+}
+.zombie {
+    font-family: 'Chiller', cursive;
+    font-size: 28px;
+    color: green; /* Otra opción podría ser 'darkgreen' para un aspecto más oscuro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 200px;
+}
+
+@font-face {
+    font-family: 'Bloody';
+    src: url('ruta/a/tu/fuente/bloody.ttf') format('truetype');
+    
 }

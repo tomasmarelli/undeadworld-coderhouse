@@ -1,9 +1,9 @@
+@charset "UTF-8";
 * {
   margin: 0;
   list-style: none;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
@@ -24,12 +24,23 @@ header .container-fluid {
   background-color: black;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 867px) {
   .contenedor .cajita {
     flex-direction: column-reverse;
   }
   .contenedor iframe {
     width: 100%;
+  }
+  .contenedor .zombie {
+    margin-left: 50px;
+  }
+  .contenedor .img4 {
+    max-width: 10rem;
+  }
+  .contenedor .cont {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
   }
   .contenedor .fotoz div img {
     width: 300px;
@@ -56,6 +67,11 @@ header .container-fluid {
     flex-direction: column-reverse;
   }
 }
+@media screen and (max-width: 1286px) {
+  main .infogame {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .contenedor {
   display: flex;
   background: linear-gradient(rgba(255, 0, 0, 0.363), black);
@@ -70,7 +86,11 @@ header .container-fluid {
   align-items: center;
 }
 .contenedor .cajita p {
-  color: red;
+  color: green;
+}
+
+.fue {
+  font-family: "Chiller", cursive;
 }
 
 .fotoz div img {
@@ -109,6 +129,7 @@ header .container-fluid {
 }
 
 .txt {
+  font-family: monospace;
   font-size: 1rem;
   margin: 0.5rem;
   color: red;
@@ -192,12 +213,47 @@ header .container-fluid {
 }
 .bloque2 .texto2 {
   color: #b22222;
+  font-family: fantasy;
 }
 
 main .wp {
   background: linear-gradient(rgba(255, 0, 0, 0.363), black);
 }
 
+.cont {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  height: 50vh;
+}
+
+.zombie {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 80%;
+}
+
+.img4 {
+  max-width: 50%;
+  height: auto;
+}
+
+.zombie {
+  font-family: "Chiller", cursive;
+  font-size: 28px;
+  color: green; /* Otra opción podría ser 'darkgreen' para un aspecto más oscuro */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-left: 200px;
+}
+
+@font-face {
+  font-family: "Bloody";
+  src: url("ruta/a/tu/fuente/bloody.ttf") format("truetype");
+}
 .pie {
   background-color: rgb(2, 2, 2);
   width: 100%;

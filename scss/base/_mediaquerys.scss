@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) {
+ @media screen and (max-width:867px){
     .contenedor {
         .cajita {
             flex-direction: column-reverse;
@@ -10,6 +10,20 @@
         iframe {
             width: 100%;
         }
+    .zombie{
+        margin-left: 50px;
+        
+        
+    }
+    .img4{
+        max-width: 10rem;
+        
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
 
 
 
@@ -55,4 +69,11 @@
     .bloque2 {
         flex-direction: column-reverse;
     }
+}
+@media screen and (max-width:1286px){
+    main {
+        .infogame {
+            grid-template-columns: repeat(2, 1fr);
+        }
+}
 }

@@ -10,7 +10,7 @@
         justify-content: space-around;
         align-items: center;
         p{
-            color: green;
+            color: rgb(250, 253, 250);
         }
     }
 
@@ -169,14 +169,19 @@ main{
 .zombie {
     font-family: 'Chiller', cursive;
     font-size: 28px;
-    color: green; /* Otra opción podría ser 'darkgreen' para un aspecto más oscuro */
+    color: rgb(247, 250, 247); /* Otra opción podría ser 'darkgreen' para un aspecto más oscuro */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
     margin-left: 200px;
 }
-
-@font-face {
-    font-family: 'Bloody';
-    src: url('ruta/a/tu/fuente/bloody.ttf') format('truetype');
-    
+.par{
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 5rem;
+}
+.par2{
+    text-align: center;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 2rem;
 }

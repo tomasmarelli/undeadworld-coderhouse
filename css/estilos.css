@@ -233,7 +233,7 @@ main .wp {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 80%;
+  max-width: 70%;
 }
 
 .img4 {

@@ -137,6 +137,7 @@ header .container-fluid {
 .boton {
   padding-inline: 1rem;
   border-radius: 0.5rem;
+  text-decoration: none;
 }
 .boton:hover {
   background-color: #b22222;

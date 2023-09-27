@@ -139,7 +139,6 @@ header .container-fluid {
   border-radius: 0.5rem;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  color: #f1f1f1;
 }
 .boton:hover {
   background-color: #b22222;

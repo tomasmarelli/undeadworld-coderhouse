@@ -233,7 +233,7 @@ main .wp {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 70%;
+  max-width: 90%;
 }
 
 .img4 {
@@ -242,7 +242,7 @@ main .wp {
 
 .zombie {
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 2rem;
   color: rgb(247, 250, 247);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -253,7 +253,7 @@ main .wp {
   font-family: "Roboto", sans-serif;
   text-align: center;
   color: #f1f1f1;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .par2 {
